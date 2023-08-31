@@ -3,7 +3,7 @@ class Person:
         self.name = name
         self.age = age
     def printDetails(self):
-        print(self.name,self.reg)
+        print(self.name,self.age)
 class Student(Person):
     def __init__(self, name, age, standard, section):
         super().__init__(name, age)
